@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    width: 3840px;
+    height: 2160px;
+    border: 3px solid black;
+}
+/* Styling left part */
+.leftPart{
+    width: 2277.76px;
+    height: 2160px;
+    background: url("../img/Subtract.svg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: inherit;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+/* Styinling map */
+.partitionTopRight{
+    position: absolute;
+    margin-top: 237px;
+    margin-left: 1847px;
+}
+.mapCenter{
+    
+    position: absolute;
+    padding-left: 520px;
+    padding-top: 230px;
+
+}
+.partitionCenter{
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 1125px;
+}
+.partitionCenterLeft{
+    width: 110px;
+    height: 150px;
+    margin-right: 55px;
+}
+.partitionCenterright{
+    width: 110px;
+    height: 150px;    
+}
+.electronicQueueTerminal{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    margin-left: 1750px;
+    margin-top: 1276px;
+}
+/* Logo */
+.logo{
+    margin-bottom: 55px;
+}
+/* Promo */
+.promo{
+    width: 1520px;
+    height: 840px;
+}
+/* Styling right part */
+.rightPart{
+    width: 1280px;
+    height: 2160px;
+    display: flex;
+    flex-direction: column;
+}
+.listName{
+    width: 764px;
+    height: 112px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 156%;
+    color: #333333;
+    margin-top: 86px;
+    margin-bottom: 8px;
+}
+.listOfStores{
+
+}
+.stores{
+    display: flex;
+    margin-top: 20px;
+}
+.marker{
+    margin-right: 40px;
+    width: 52px;
+    height: 62px;
+
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 29px;
+    color: #000000;
+}
